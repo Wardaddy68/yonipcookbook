@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline:none;
+    font-family: "Quciksand", sans-serif;
+}
+body{
+    background: #fff;
+}
+nav{
+    background: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    padding: 0 100px;
+}
+nav .logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+nav .nav-items{
+    justify-content: flex-end;
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+}
+nav .nav-items li{
+    list-style: none;
+    padding: 0 0px;
+}
+nav .nav-items li a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 35px 20px;
+}
+nav .nav-items li a:hover{
+    background: #fff;
+    color: #000000;
+    font-weight: 700;
+}
+.content header{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    position: relative;
+    left: 500px;
+    top: 180px;
+}
+.image{
+    height: 400px;
+    width: 560px;
+    background-size: 100%;
+    background: #000000;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+}
+h3{ /*KARE KARE*/
+    font-size: 60px;
+    font-weight: 400px;
+    position: absolute;
+    left: 720px;
+    top: 160px;
+}
+p{
+    padding: 60px;
+    font-size: 25px;
+    position: absolute;
+    left: 660px;
+    top: 200px;
+    letter-spacing: 1px;
+}
+h4{ /* INGREDIENTS */
+    font-size: 50px;
+    font-weight: 400px;
+    position: relative;
+    padding: 20px;
+}
+ul{
+    float: right;
+    position: absolute;
+    left: 70px;     
+    font-size: 25px;
+}
+
+h6{ /* HOW TO COOK */
+    font-size: 50px;
+    font-weight: 400px;
+    position: absolute;
+    left: 720px;
+    top: 560px;
+}
+ol{
+    float: right;
+    position: absolute;
+    left: 750px;
+    top: 630px;     
+    font-size: 25px;
+    line-height: 150%;
+}
+
